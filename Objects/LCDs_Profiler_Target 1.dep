@@ -1,0 +1,303 @@
+Dependencies for Project 'LCDs_Profiler', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Source\delay.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\delay.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+F (.\Source\LEDs.c)(0x5E5F2D24)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\leds.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\leds.crf --depend .\objects\leds.d)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\LEDs.h)(0x5E5EF517)
+I (.\Include\gpio_defs.h)(0x5E5EF517)
+F (.\Source\main.c)(0x5E61DE20)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\main.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+I (.\Include\gpio_defs.h)(0x5E5EF517)
+I (.\Source\LCD\LCD.h)(0x5E601F00)
+I (.\Include\misc.h)(0x5E5EF517)
+I (.\Source\LCD\colors.h)(0x5E5EF518)
+I (.\Source\LCD\font.h)(0x5E5EF518)
+I (.\Include\LEDs.h)(0x5E5EF517)
+I (.\Include\timers.h)(0x5E5EF517)
+I (.\Include\UART.h)(0x5E5EF517)
+I (.\Include\queue.h)(0x5E5EF517)
+I (.\Include\debug.h)(0x5E61DD3A)
+I (.\Source\FS\pff.h)(0x5E5EF518)
+I (.\Source\FS\pffconf.h)(0x5E5EF518)
+I (.\Source\FS\integer.h)(0x5E5EF518)
+I (.\Include\I2C.h)(0x5E5EF517)
+I (.\Include\mma8451.h)(0x5E5EF517)
+I (.\Include\delay.h)(0x5E5EF517)
+I (.\Source\Profiler\profile.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B88E2)
+F (.\Source\MMA8451.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\mma8451.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\mma8451.crf --depend .\objects\mma8451.d)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B88E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+I (.\Include\MMA8451.h)(0x5E5EF517)
+I (.\Include\I2C.h)(0x5E5EF517)
+I (.\Include\delay.h)(0x5E5EF517)
+I (.\Include\LEDs.h)(0x5E5EF517)
+F (.\Source\debug.c)(0x5E5F2D24)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\debug.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\debug.h)(0x5E61DD3A)
+F (.\Source\I2C.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\i2c.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\i2c.h)(0x5E5EF517)
+F (.\Source\timers.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\timers.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (.\Include\timers.h)(0x5E5EF517)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+F (.\Source\UART.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\uart.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\Include\UART.h)(0x5E5EF517)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\queue.h)(0x5E5EF517)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+F (.\Source\queue.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\queue.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (.\Include\queue.h)(0x5E5EF517)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+F (.\Include\debug.h)(0x5E61DD3A)()
+F (.\Include\delay.h)(0x5E5EF517)()
+F (.\Include\GPIO_defs.h)(0x5E5EF517)()
+F (.\Include\I2C.h)(0x5E5EF517)()
+F (.\Include\LEDs.h)(0x5E5EF517)()
+F (.\Include\misc.h)(0x5E5EF517)()
+F (.\Include\MMA8451.h)(0x5E5EF517)()
+F (.\Include\picojpeg.h)(0x5E61796C)()
+F (.\Include\queue.h)(0x5E5EF517)()
+F (.\Include\timers.h)(0x5E5EF517)()
+F (.\Include\UART.h)(0x5E5EF517)()
+F (.\Source\Profiler\profile.c)(0x5E617CAF)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\profile.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\profile.crf --depend .\objects\profile.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (Source\Profiler\PIT.h)(0x5E5EF518)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (Source\Profiler\region.h)(0x5E5EF518)
+I (Source\Profiler\profile.h)(0x5E5EF518)
+I (.\Source\LCD\LCD.h)(0x5E601F00)
+I (.\Include\misc.h)(0x5E5EF517)
+I (.\Source\LCD\colors.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B88E8)
+I (.\Source\LCD\font.h)(0x5E5EF518)
+I (.\Source\LCD\ST7789.h)(0x5E5EF518)
+I (.\Source\LCD\LCD_driver.h)(0x5E5F2D24)
+F (.\Source\Profiler\region.c)(0x5E60282C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\region.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\region.crf --depend .\objects\region.d)
+I (Source\Profiler\region.h)(0x5E5EF518)
+F (.\Source\Profiler\PIT.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\pit.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\pit.crf --depend .\objects\pit.d)
+I (Source\Profiler\PIT.h)(0x5E5EF518)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (Source\Profiler\region.h)(0x5E5EF518)
+I (Source\Profiler\profile.h)(0x5E5EF518)
+F (.\Source\Profiler\PIT.h)(0x5E5EF518)()
+F (.\Source\Profiler\profile.h)(0x5E5EF518)()
+F (.\Source\Profiler\region.h)(0x5E5EF518)()
+F (.\Source\LCD\LCD_JPEG.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\lcd_jpeg.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\lcd_jpeg.crf --depend .\objects\lcd_jpeg.d)
+I (.\Include\picojpeg.h)(0x5E61796C)
+I (.\Source\FS\pff.h)(0x5E5EF518)
+I (.\Source\FS\pffconf.h)(0x5E5EF518)
+I (.\Source\FS\integer.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (.\Include\debug.h)(0x5E61DD3A)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B88EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B88E8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B88E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9B88E2)
+I (Source\LCD\LCD.h)(0x5E601F00)
+I (.\Include\misc.h)(0x5E5EF517)
+I (Source\LCD\colors.h)(0x5E5EF518)
+I (Source\LCD\LCD_driver.h)(0x5E5F2D24)
+F (.\Source\LCD\LCD_graphics.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\lcd_graphics.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\lcd_graphics.crf --depend .\objects\lcd_graphics.d)
+I (Source\LCD\LCD.h)(0x5E601F00)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (.\Include\misc.h)(0x5E5EF517)
+I (Source\LCD\colors.h)(0x5E5EF518)
+I (Source\LCD\LCD_driver.h)(0x5E5F2D24)
+I (Source\LCD\ST7789.h)(0x5E5EF518)
+I (Source\LCD\T6963.h)(0x5E5EF518)
+I (.\Include\picojpeg.h)(0x5E61796C)
+F (.\Source\LCD\LCD_text.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\lcd_text.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\lcd_text.crf --depend .\objects\lcd_text.d)
+I (Source\LCD\font.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (Source\LCD\LCD.h)(0x5E601F00)
+I (.\Include\misc.h)(0x5E5EF517)
+I (Source\LCD\colors.h)(0x5E5EF518)
+I (Source\LCD\LCD_driver.h)(0x5E5F2D24)
+I (Source\LCD\ST7789.h)(0x5E5EF518)
+I (Source\LCD\T6963.h)(0x5E5EF518)
+I (.\Include\delay.h)(0x5E5EF517)
+F (.\Source\LCD\lucida_8x13.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\lucida_8x13.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\lucida_8x13.crf --depend .\objects\lucida_8x13.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+F (.\Source\LCD\lucida_12x19.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\lucida_12x19.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\lucida_12x19.crf --depend .\objects\lucida_12x19.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+F (.\Source\LCD\ST7789.c)(0x5E5F2D24)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\st7789.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\st7789.crf --depend .\objects\st7789.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (Source\LCD\LCD.h)(0x5E601F00)
+I (.\Include\misc.h)(0x5E5EF517)
+I (Source\LCD\colors.h)(0x5E5EF518)
+I (Source\LCD\LCD_driver.h)(0x5E5F2D24)
+I (Source\LCD\font.h)(0x5E5EF518)
+I (.\Include\debug.h)(0x5E61DD3A)
+I (.\Include\gpio_defs.h)(0x5E5EF517)
+I (.\Include\timers.h)(0x5E5EF517)
+I (Source\LCD\ST7789.h)(0x5E5EF518)
+F (.\Source\LCD\touchscreen.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\touchscreen.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\touchscreen.crf --depend .\objects\touchscreen.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B88EA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (Source\LCD\LCD.h)(0x5E601F00)
+I (.\Include\misc.h)(0x5E5EF517)
+I (Source\LCD\colors.h)(0x5E5EF518)
+I (Source\LCD\LCD_driver.h)(0x5E5F2D24)
+I (Source\LCD\ST7789.h)(0x5E5EF518)
+I (Source\LCD\T6963.h)(0x5E5EF518)
+I (Source\LCD\font.h)(0x5E5EF518)
+I (.\Include\gpio_defs.h)(0x5E5EF517)
+I (.\Include\timers.h)(0x5E5EF517)
+F (.\Source\LCD\picojpeg.c)(0x5E61D6BD)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\picojpeg.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\picojpeg.crf --depend .\objects\picojpeg.d)
+I (.\Include\picojpeg.h)(0x5E61796C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+F (.\Source\LCD\colors.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\colors.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\colors.crf --depend .\objects\colors.d)
+I (Source\LCD\colors.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+F (.\Source\FS\diskio.c)(0x5E61D23A)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\diskio.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (Source\FS\diskio.h)(0x5E5EF518)
+I (Source\FS\pff.h)(0x5E5EF518)
+I (Source\FS\pffconf.h)(0x5E5EF518)
+I (Source\FS\integer.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (.\Source\ulibSD\sd_io.h)(0x5E5EF518)
+I (.\Source\ulibSD\spi_io.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B88E8)
+F (.\Source\FS\pff.c)(0x5E61BC12)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\pff.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\pff.crf --depend .\objects\pff.d)
+I (Source\FS\pff.h)(0x5E5EF518)
+I (Source\FS\pffconf.h)(0x5E5EF518)
+I (Source\FS\integer.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (Source\FS\diskio.h)(0x5E5EF518)
+I (.\Include\debug.h)(0x5E61DD3A)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\LEDs.h)(0x5E5EF517)
+F (.\Source\FS\diskio.h)(0x5E5EF518)()
+F (.\Source\FS\pff.h)(0x5E5EF518)()
+F (.\Source\FS\pffconf.h)(0x5E5EF518)()
+F (.\Source\ulibSD\sd_io.c)(0x5E617B69)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\sd_io.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\sd_io.crf --depend .\objects\sd_io.d)
+I (Source\ulibSD\sd_io.h)(0x5E5EF518)
+I (Source\ulibSD\spi_io.h)(0x5E5EF518)
+I (.\Source\FS\integer.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\debug.h)(0x5E61DD3A)
+I (.\Include\delay.h)(0x5E5EF517)
+F (.\Source\ulibSD\sd_io.h)(0x5E5EF518)()
+F (.\Source\ulibSD\spi_io.c)(0x5E61CAFA)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\spi_io.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\spi_io.crf --depend .\objects\spi_io.d)
+I (Source\ulibSD\spi_io.h)(0x5E5EF518)
+I (.\Source\FS\integer.h)(0x5E5EF518)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+I (.\Include\debug.h)(0x5E61DD3A)
+F (.\Source\ulibSD\spi_io.h)(0x5E5EF518)()
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x5E5EF518)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"-o .\objects\startup_mkl25z4.o --depend .\objects\startup_mkl25z4.d)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x5E5EF518)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I .\Include -I .\Source\Profiler -I .\Source\LCD -I .\Source\FS -I .\Source\ulibSD --fpmode=fast-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-IC:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DMKL25Z128xxx4-o .\objects\system_mkl25z4.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\system_mkl25z4.crf --depend .\objects\system_mkl25z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B88E8)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C32DA)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0plus.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D264786)
+I (C:\Users\ramba\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D264786)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5E5EF518)()
